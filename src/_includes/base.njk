@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/fonts.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/grid.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#theclub">The club</a></li>
+          <li><a href="#whoweare">Who we are</a></li>
+          <li><a href="#waitlist">Join the waitlist</a></li>
+          <li class="icon"><a href="https://google.com" target="_blank"><img src="assets/images/icon-fb.svg" alt="Facebook" height="22" /></a></li>
+          <li class="icon"><a href="https://google.com" target="_blank"><img src="assets/images/icon-insta.svg" alt="Instagram" height="22" /></a></li>
+        </ul>
+      </nav>
+      <img src="assets/images/logo.svg" alt="Maurice and Harry" height="365" class="logo" />
+    </header>
+    <main>
+      <div class="grid">
+        <div class="col-12 col-md-7">
+          <img src="assets/images/polaroids.png" alt="Our journey" height="648" class="polaroids" />
+          <a href="https://google.com" target="_blank" class="insta-link">Follow our story on Instagram</a>
+        </div>
+        <div class="col-12 col-md-5">
+          <h1>
+            <span>We're almost</span>
+            <span class="line2">ready for our</span>
+            <span class="line3"><em>first</em> box <strong>&#129395;</strong></span>
+          </h1>
+          <a href="#" class="join"></a>
+        </div>
+      </div>
+      
+      <section class="club" id="theclub">
+        <div class="grid">
+          <div class="col-12 col-md-12">
+            <img src="assets/images/heading-club.svg" alt="The Club" height="32" class="title" />
+            <p class="lead">The club is a privileged circle of amateur wine lovers, curious and eager to discover new flavours and, occasionally, exclusive cuvées.</p>
+          </div>
+          <div class="col-6 col-md-6">
+            <p>Each month, we carefully curate a collection of wines packaged in a convenient box, which we can deliver directly to your doorstep or to a location of your preference.</p>
+            <p>The club represents an immersion in the wines of the various regions of the south of France and we invite you to discover their cuvées and their vineyards.</p>
+          </div>
+          <div class="col-6 col-md-6">
+            <p>Our winemakers are, like us, passionate, self-demanding, lovers of the land that they know so well, thanks to many years, sometimes centuries of experience.</p>
+            <p>We’re available and ready to answer your questions and respond to your specific needs. We are also open to providing wine for your events such as family reunions, weddings, and more.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="who" id="whoweare">
+        <div class="grid">
+          <div class="col-6 col-md-6">
+            <img src="assets/images/heading-who.svg" alt="Who We Are" height="35" class="title" />
+            <p class="lead-alt">From the tiny village in the south of France where our friendship was born, we have decided to help you truly discover the wines and the region</p>
+            <p>Greg, the Englishman and technologist, has lived in the south of France for many years. Over time he's discovered the wines and the rich character of the region.</p>
+            <p>Laurent, the Frenchman and sommelier, is from the Uzège and his work is literally in wine. With decades of experience in hospitality, the restaurant trade and, later, as a specialist wine merchant, he loves to share his passion for wine.</p>
+          </div>
+          <div class="col-6 col-md-6">
+            <img src="assets/images/photos.png" alt="Greg and Laurent" height="435" />
+          </div>
+        </div>
+      </section>
+      
+      <section class="signup" id="waitlist">
+        <div class="grid">
+          <div class="col-12 col-md-12">
+            <img src="assets/images/heading-waitlist.svg" alt="Who We Are" height="35" class="title" />
+            <form>
+              <label for="firstname">First name</label>
+              <input type="text" id="firstname" name="firstname">
+              <label for="surname">Surname</label>
+              <input type="text" id="surname" name="surname">
+              <label for="email">Email address</label>
+              <input type="text" id="email" name="email">
+              <label for="winepref">Wine preference</label>
+              <div class="wine-pref">
+                <label for="white" class="option">
+                  <input type="radio" id="white" name="winepref" value="white">
+                  White
+                </label>
+                <label for="red" class="option">
+                  <input type="radio" id="red" name="winepref" value="red">
+                  Red
+                </label>
+                <label for="mixed" class="option">
+                  <input type="radio" id="mixed" name="winepref" value="mixed">
+                  Mixed
+                </label>
+              </div>
+              <input type="submit" value="Sign me up">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="grid">
+        <div class="col-6 col-md-6">
+          <p>
+            <a href="https://google.com" target="_blank"><img src="assets/images/icon-fb.svg" alt="Facebook" height="22" /> mauriceandharry</a>
+            <a href="https://google.com" target="_blank"><img src="assets/images/icon-insta.svg" alt="Instagram" height="22" /> mauriceandharry</a>
+          </p>
+        </div>
+        <div class="col-6 col-md-6">
+          <p class="right">&copy; 2023 mauriceandharry.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
