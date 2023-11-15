@@ -10,6 +10,10 @@ $medium: 'outfitmedium', helvetica, sans-serif;
 $semibold: 'outfitsemibold', helvetica, sans-serif;
 $bold: 'outfitbold', helvetica, sans-serif; 
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $regular;
   background-color: #fff;
@@ -26,6 +30,7 @@ body {
 a {
   color: $black;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 p {
@@ -130,14 +135,21 @@ main .grid {
   }
 }
 
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
 .club {
+  
   min-height:700px;
   background: url('../assets/images/box.png') no-repeat right;
   background-size: 621px 711px;
   
   .grid {
     width: 40%;
-    margin: 290px auto auto 20%;
+    margin: 200px auto auto 20%;
     padding-top: 125px;
   }
   
@@ -196,6 +208,7 @@ main .grid {
   
   .grid {
     width: 30%;
+    margin-top: 200px;
   }
   
   .wine-pref {
