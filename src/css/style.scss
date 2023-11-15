@@ -309,6 +309,72 @@ footer {
 
 
 
+// Responsive styling
 
+@media only screen and (max-width: 1550px) {
+  .polaroids {
+    width: 100%;
+    object-fit: scale-down;
+  }
+  .insta-link {
+    background: white;
+  }
+  .club .grid {
+    margin-top: 0;
+  }
+  .who .grid {
+    margin-top: 150px;
+  }
+  .signup .grid {
+    margin-top: 150px;
+    width: 80%;
+  }
+  .signup .wine-pref {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .signup label {
+    font-size: 17px;
+  }
+  .signup .wine-pref .option {
+    gap: .5em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .mobile-hide {display: none;}
+  main {
+    padding-top: 200px;
+  }
+  .polaroids-us {
+    width: 100%;
+    object-fit: scale-down;
+  }
+  .club {
+    background: none;
+  }
+  .club .grid {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .who .grid {
+    width: 80%;
+  }
+  footer .right {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .link {
+    display: none;
+  }
+  nav {
+    right: 40px;
+  }
+  body {
+    background-size: cover;
+  }
+}
 
 
