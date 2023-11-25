@@ -1,2 +1,3 @@
 /working/node_modules/*/README.md
+/working/node_modules/*/node_modules/*/README.md
 .DS_Store
