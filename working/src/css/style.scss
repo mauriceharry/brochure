@@ -390,4 +390,40 @@ footer {
   }
 }
 
-
+@media only screen and (max-width: 800px) {
+  .logo {
+    left: 20px;
+  }
+  nav {
+    right: 10px;
+  }
+  main .grid {
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .join {
+    left: 0;
+  }
+  .club .grid {
+    margin-left: 10px;
+  }
+  .who .grid {
+    margin-left: 10px;
+  }
+  .signup .grid {
+    margin-left: 10px;
+  }
+  .signup .title {
+    width: 100%;
+  }
+  footer a {
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
+  footer .right {
+    font-size: 10px;
+  }
+}
